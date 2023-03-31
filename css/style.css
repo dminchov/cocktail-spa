@@ -1,0 +1,155 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  background-image: url(bg_logo.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding-left: 300px;
+  height: 150px;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+h3 {
+  padding-top: 5px;
+}
+
+nav {
+  background-color: #f9dec4;
+  width: 270px;
+  height: 120%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.cat:hover {
+  color: #fff;
+  background-color: #eaab34;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: #f2d240 0 0 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #272626;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.cat {
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #1a1717;
+  font-weight: bold;
+}
+
+img {
+ width: auto;
+  border-radius: 20px;
+   
+
+}
+
+
+
+
+#aperoo {
+  background-color: rgb(236, 202, 168);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+
+#recette {
+  background-color: rgb(248, 238, 203);
+  margin-left: 27px;
+  padding-left: 270px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-top: 30px;
+ align-items: center;
+  
+}
+
+#logo{
+  width: 280px;
+  height: 140px;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+ border-radius: 100px;
+ box-shadow: 1 1  50px #c5bc8e;
+  
+}
+article {
+  background-color: rgb(228, 181, 118);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+.card{
+  background-color: rgb(228, 181, 118);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
